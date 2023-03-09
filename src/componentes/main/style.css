@@ -1,0 +1,399 @@
+@media (min-width: 901px) {
+    .carrosel-menor img {
+        width: 200px;
+        padding: 20px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 40px;
+        padding: 10px 0;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .secao-principal {
+        display: flex;
+        padding: 50px 0;
+    }
+
+    .secao-principal img {
+        padding: 0 30px;
+    }
+
+    .detalhes h3 {
+        max-width: 60%;
+        font-size: 35px;
+        font-weight: 600;
+
+    }
+
+    .detalhes p {
+        max-width: 80%;
+        padding: 30px 0;
+        font-size: 25px;
+
+    }
+
+    .detalhes li {
+        list-style-type: disc;
+        font-size: 20px;
+        padding: 15px 0;
+    }
+
+    .prato1 {
+        width: 350px;
+        height: 377px;
+
+    }
+
+    .lista {
+        display: flex;
+    }
+
+    .secao-ofertas h3 {
+        font-size: 45px;
+        font-weight: 900;
+    }
+
+    .secao-ofertas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secao-ofertas img {
+        width: 350px;
+        height: 150px;
+        padding: 10px 20px;
+    }
+
+    .secao-restaurante {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+        padding: 20px 0;
+
+
+    }
+
+    .imagem-restaurante {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .restaurante {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .restaurante h4 {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .informacoes {
+        margin: 50px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .card h5 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .card img {
+        border: 2px solid #CC3333;
+        padding: 10px;
+        border-radius: 50%;
+    }
+}
+@media(min-width:950px) and (max-width:1300px){
+    .carrosel-menor img{
+        width: 180px;
+    }
+}
+/*Telas de celulares*/
+@media (min-width:320px) and (max-width:450px) {
+    .carrosel-menor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main h2 {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .carrosel-menor img {
+        width: calc(100% / 2);
+
+    }
+
+    .carrosel-menor img:last-child {
+        display: none;
+    }
+
+    .img-chefe {
+        display: none;
+
+
+    }
+
+    .secao-principal {
+        display: flex;
+        padding: 10px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .detalhes h3 {
+        font-size: 25px;
+        font-weight: 600;
+
+    }
+
+    .detalhes p,
+    li {
+        padding: 10px 5px;
+        font-size: 15px;
+
+    }
+
+    .prato1 {
+        width: 350px;
+        height: 270px;
+
+
+    }
+
+    .detalhes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .detalhes li {
+        color: #CC3333;
+
+    }
+
+    /*Seção ofertas*/
+    .secao-ofertas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .secao-ofertas img {
+        width: 90%;
+        height: 150px;
+        padding: 5px 15px;
+    }
+
+    .secao-ofertas h3 {
+        font-size: 25px;
+    }
+
+    /*Seção restaurante*/
+    .restaurante {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .informacoes {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 10px;
+    }
+
+    .informacoes p {
+        font-size: 15px;
+        text-align: center;
+        padding: 5px 15px;
+        max-width: 80%;
+    }
+
+    .informacoes h4 {
+        font-size: 25px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img {
+        width: 50px;
+        padding: 5px 0;
+    }
+
+}
+
+@media (min-width:451px) and (max-width:900px) {
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .carrosel-menor {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .carrosel-menor img {
+        padding: 5px;
+    }
+
+    .img-chefe {
+        display: none;
+    }
+
+    .secao-principal {
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .secao-principal li {
+        padding: 20px 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    .secao-principal h3 {
+        font-size: 35px;
+        padding: 10px 0;
+    }
+
+    .prato1 {
+        margin: 0 10%;
+        width: 80%;
+        height: 350px;
+    }
+
+    .secao-ofertas {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .secao-ofertas img {
+        margin: 0 10%;
+        width: 80%;
+        height: 230px;
+        padding: 10px 0;
+    }
+
+    .secao-ofertas h3 {
+        font-size: 35px;
+    }
+
+    .secao-ofertas p {
+        font-size: 20px;
+    }
+
+    .restaurante {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secao-restaurante {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .restaurante h3 {
+        font-size: 25px;
+        padding: 10px 0;
+    }
+
+    .informacoes {
+        text-align: center;
+    }
+
+    .card {
+        padding: 10px 0;
+    }
+
+    .informacoes h4 {
+        font-size: 25px;
+        padding: 10px 0;
+    }
+}
+.carrosel-menor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrosel-menor img{
+
+    position: relative;
+    display: inline-block;
+    margin: 1rem 1rem;
+    border-radius: 5px;    
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.carrosel-menor img:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: -1;
+}
+
+.carrosel-menor img:hover {
+    transform: scale(1.25, 1.25);
+}
+
+.carrosel-menor img:hover::after {
+    opacity: 1;
+}

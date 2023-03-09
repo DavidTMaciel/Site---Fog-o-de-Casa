@@ -1,0 +1,23 @@
+.banner-cardapio{   
+    background-image: url('/public/assets/banner-cardapio.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    
+    
+
+}
+.banner-cardapio p{
+    color: #FFF8EE;
+    padding: 30px 0;
+    font-size: 35PX;
+    text-align: center;
+    
+}
+.cardapio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+

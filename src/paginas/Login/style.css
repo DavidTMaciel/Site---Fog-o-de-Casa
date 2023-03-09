@@ -1,0 +1,101 @@
+.login-container{
+    background-color: white;
+}
+
+@media (min-width: 900px) {
+    .login-container{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+    }
+    .box-login-register{
+        margin: 50px 10%;
+        display: flex;
+        flex-direction: column;
+        background-color: #FFF8EE;
+        width: 300px;
+        border-radius: 5px;
+        padding: 10px;
+        
+        
+    }
+    .box-login-register p{
+        color: #CC3333;
+        font-size: 12px;
+        padding: 5px 0;
+    }
+    .dados{
+        height: 30px;
+        border-radius: 10px;
+        width: 180px;
+        margin-bottom: 8px;
+        color:#CC3333;
+        
+    }
+    .box-login-register h2{
+        font-size: 16px;
+    }
+    .bottom-login{
+        margin-top: 10px;
+        padding: 5px;
+        width: 30%;
+    }
+    
+}
+@media (min-width: 320px) and (max-width:428px){
+    .login-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    .box-login-register{
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        background-color: #FFF8EE;
+        width: 80%;
+        border-radius: 5px;
+        padding: 10px;
+        height: 250px;
+                       
+    }
+    .dados{
+        height: 30px;
+        width: 70%;
+        border-radius: 10px;
+        color: #CC3333;
+        margin: 10px 0;
+    }
+    .box-login-register p{
+        color: #CC3333;
+        
+    }
+    .bottom-login{
+        width: 20%;        
+        color: #FFF8EE;
+        height: 30px;
+        border-radius: 10px;
+        margin: 10px 0;
+        
+    }
+    .box-login-register h2{
+        padding: 5px 0;
+    }
+
+}
+
+.bottom-login{
+    border: 1px solid #CC3333;
+    color: aliceblue;
+    background-color: #CC3333;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+}
+.dados{
+border: 1px solid #CC3333;
+}
+.box-login-register, .bottom-login, .login-container{
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+}

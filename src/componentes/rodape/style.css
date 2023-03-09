@@ -1,0 +1,50 @@
+.filiais{
+    display: flex;
+    justify-content: center;
+    background-color: #CC3333;
+    color: white;
+}
+.filiais h3{
+    color: white;
+}
+.card-filiais{
+    width: calc(100%/3);
+    padding: 30px 0;
+    margin: 0 10%;
+    
+}
+.creditos{
+    background-color: #2A435D;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+@media (min-width:320px) and (max-width:450px){
+    .filiais h3{
+        font-size: 15px;
+    }
+    .card-filiais{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5px 2px;
+        margin: 0;
+        border-right: 1px solid wheat;
+    }
+
+}
+@media (min-width:451px) and (max-width:900px){
+    .filiais h3{
+        font-size: 15px;
+
+    }
+    .card-filiais{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5px 30px;
+        margin: 0;
+        border-right: 1px solid wheat;
+        
+    }
+}

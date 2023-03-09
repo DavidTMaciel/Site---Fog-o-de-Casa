@@ -1,0 +1,254 @@
+.aviso {
+    background-color: #CC3333;
+    color: #FFF8EE;
+
+}
+
+header {
+    border-bottom: 1px solid #d0cac2;
+}
+
+/*Telas de notbook*/
+@media (min-width:901px) {
+    .aviso-texto {
+        padding: 5px 30px;
+
+
+    }
+    .aviso{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .topo {
+        height: 119px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .logo {
+        height: 82px;
+        padding: 20px;
+    }
+
+    .carrinho {
+
+        width: 25px;
+    }
+
+
+    nav a {
+
+        font-size: 20px;
+        text-decoration: none;
+        padding: 20px;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+
+
+    }
+
+    .delivery {
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .entregador {
+        padding: 0 10px;
+
+    }
+
+    .login {
+        width: 90px;
+        height: 40px;
+        border-radius: 20px;
+        color: white;
+        background-color: #CC3333;
+
+
+    }
+    .link{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .topo-delivery {
+        display: flex;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*Telas de celulares*/
+@media (min-width:320px) and (max-width:450px) {
+    .aviso-texto {
+        font-size: 12px;
+        padding: 5px;
+
+    }
+
+    .topo {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        height: 42px;
+        padding: 10px;
+        border-bottom: 2px solid #2A435D;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+
+    }
+
+    nav a {
+        text-decoration: none;
+        padding: 2px 15px;
+    }
+
+    .topo {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 90px;
+        align-items: center;
+
+
+    }
+
+    .topo-delivery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .delivery {
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .login {
+        width: 40px;
+        height: 20px;
+        border-radius: 15px;
+        color: white;
+        background-color: #CC3333;
+
+
+    }
+    .link{
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+
+    .topo-delivery img {
+        width: 25px;
+        height: 25px;
+
+
+    }
+
+    .topo-delivery p {
+        padding: 0 15px;
+    }
+
+    .login {
+        margin: 0 20px;
+    }
+
+}
+
+/*Telas para tablet*/
+@media (min-width:450px) and (max-width:900px) {
+    .aviso {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+    .aviso-texto{
+        padding: 0 20px;
+    }
+    .topo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topo-delivery{
+        display: flex;
+        align-items: center;
+    }
+    
+    nav a {
+
+        font-size: 20px;
+        text-decoration: none;
+        padding: 10px;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+
+
+    }
+    .login {
+        width: 50px;
+        height: 30px;
+        border-radius: 20px;
+        color: white;
+        background-color: #CC3333;
+
+
+    }
+    .delivery {
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px;
+    }
+    .entregador{
+        padding: 0 5px;
+    }
+    .link{
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,158 @@
+.card-cardapio {
+    border: 1px solid #ccc;
+    background-color: #FFF8EE;
+    position:relative;
+    display:inline-block;
+    width:100px;
+    height:100px;
+    margin: 2rem 1rem;
+    border-radius:5px;
+    box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .card-cardapio:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:rgb(210, 230, 235);
+    opacity:0;
+    border-radius:5px;
+    box-shadow:0 5px 15px 0 rgba(0,0,0,0.3);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: -1;
+  }
+  
+  .card-cardapio:hover{
+    transform:scale(1.25,1.25);
+  }
+  
+  .card-cardapio:hover::after{
+    opacity:1;
+  }
+
+
+.card-cardapio p {
+    padding: 2px 5px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+@media (min-width:320px) and (max-width:450px) {
+    .card-cardapio {
+        display: flex;
+        margin: 10px 0%;
+        justify-content: space-between;
+        border-radius: 10px;
+        text-align: left;
+        width: 300px;
+
+    }
+
+    .card-cardapio img {
+        width: 80px;
+        padding: 5px;
+    }
+
+    .item-cardapio {
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    .card-cardapio h5 {
+        padding: 2px 5px;
+        font-size: 12px;
+
+    }
+
+    .card-cardapio span {
+        padding: 2px 5px;
+
+        font-weight: 900;
+    }
+
+
+}
+
+
+
+@media (min-width:901px) and (max-width:1980px) {
+    .card-cardapio {
+        display: flex;
+        margin: 8px 10%;
+        justify-content: space-between;
+        border-radius: 10px;
+        text-align: left;
+        width: 400px;
+
+
+    }
+
+    .card-cardapio img {
+        width: 80px;
+        padding: 5px;
+    }
+
+    .item-cardapio {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .card-cardapio h5 {
+        padding: 2px 5px;
+        font-size: 12px;
+
+    }
+
+    .card-cardapio span {
+        padding: 2px 5px;
+
+        font-weight: 900;
+    }
+
+    .card-principal-cardapio {
+        margin: 0 30px;
+    }
+}
+
+@media (min-width:451px) and (max-width:900px) {
+    .card-cardapio{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        width: 360px;
+        border-radius: 10px;
+    }
+    .card-principal-cardapio {
+        margin: 5px 5px;
+    }
+    .card-cardapio img {
+        width: 80px;
+        padding: 5px;
+    }
+    .item-cardapio {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .card-cardapio h5 {
+        padding: 2px 5px;
+        font-size: 14px;
+
+    }
+
+    .card-cardapio span {
+        padding: 2px 5px;
+
+        font-weight: 900;
+    }
+
+
+}
